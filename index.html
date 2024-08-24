@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Application</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/e0eb0eccfd.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- ! First Page -->
+    <div class="firstPage">
+      <img src="Resources/quiz time.svg" alt="" />
+      <button class="greenBackground">Start Now >>></button>
+    </div>
+    <main>
+      <!-- ! logoAndAudio -->
+      <div class="logoAndAudio">
+        <img
+          src="Resources/quiz time.svg"
+          alt="An Image where Quiz Time is Written"
+        />
+        <i class="ri-volume-up-fill soundOff"></i>
+        <i class="ri-volume-mute-fill soundOn"></i>
+      </div>
+      <!-- ! questionNumber -->
+      <span class="questionNumber">1/25 </span>
+      <!-- ! questionInput -->
+      <div class="questionInput"></div>
+      <!-- ! Timer -->
+      <span class="timer">00:30</span>
+      <!-- ! Options -->
+      <div class="options">
+        <div class="option"></div>
+        <div class="option"></div>
+        <div class="option"></div>
+        <div class="option"></div>
+      </div>
+      <!-- ! Last Part -->
+      <div class="lastPart">
+        <span class="nextButton"> Next > </span>
+        <span class="resultPageBtn">Proceed to Result Page</span>
+        <p>Made with ❤️ by Ahtisham Tahir</p>
+      </div>
+    </main>
+    <!-- ! Result Page -->
+    <div class="resultPage">
+      <img src="Resources/quiz time.svg" alt="Logo" />
+      <h2>Result</h2>
+      <div class="outerCircle">
+        <div class="innerCircle">
+          <svg class="greenLine"
+            width="64"
+            height="40"
+            viewBox="0 0 76 67"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M52.5 8C52.5 12.1421 55.8579 15.5 60 15.5C64.1421 15.5 67.5 12.1421 67.5 8C67.5 3.85786 64.1421 0.5 60 0.5C55.8579 0.5 52.5 3.85786 52.5 8ZM2 8V6.59375H0.59375V8H2ZM0.59375 73C0.59375 73.7766 1.22335 74.4062 2 74.4062C2.77665 74.4062 3.40625 73.7766 3.40625 73H0.59375ZM60 6.59375H2V9.40625H60V6.59375ZM0.59375 8V73H3.40625V8H0.59375Z"
+              fill="#009106"
+            />
+          </svg>
+          <svg class="redLine"
+            width="64"
+            height="40"
+            viewBox="0 0 76 67"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M72.3666 65.0136C72.377 65.7902 73.015 66.4113 73.7916 66.4009C74.5682 66.3905 75.1893 65.7525 75.1788 64.9759L72.3666 65.0136ZM72.9941 7L74.4003 6.98112L74.3814 5.575L72.9753 5.59388L72.9941 7ZM7.89932 0.373204C3.75756 0.428806 0.445073 3.83144 0.500674 7.9732C0.556276 12.115 3.95891 15.4275 8.10067 15.3719C12.2424 15.3162 15.5549 11.9136 15.4993 7.77185C15.4437 3.63009 12.0411 0.317602 7.89932 0.373204ZM75.1788 64.9759L74.4003 6.98112L71.588 7.01888L72.3666 65.0136L75.1788 64.9759ZM72.9753 5.59388L7.98112 6.4664L8.01888 9.27865L73.013 8.40612L72.9753 5.59388Z"
+              fill="#EB4545"
+            />
+          </svg>
+        </div>
+      </div>
+      <div class="score">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <p></p>
+      <button class="greenBackground retry"><<< Retry</button>
+      <div class="socialLinks">
+        <p>Share Your Score</p>
+        <div class="links">
+          <a target="_blank" class="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+          <a target="_blank" class="twitter"><i class="fa-brands fa-x-twitter"></i></a>
+          <a target="_blank" class="facebook"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+        <p>Made with ❤️ by Ahtisham Tahir</p>
+      </div>
+    </div>
+  </body>
+</html>
